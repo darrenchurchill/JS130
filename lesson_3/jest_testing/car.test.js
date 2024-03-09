@@ -14,11 +14,6 @@ describe("The Car class", () => {
     expect(car.wheels).not.toBeUndefined();
   });
 
-  xtest("bad wheels", () => {
-    let car = new Car();
-    expect(car.wheels).toBe(3);
-  });
-
   test("two new cars are equal objects", () => {
     let car1 = new Car();
     let car2 = new Car();
