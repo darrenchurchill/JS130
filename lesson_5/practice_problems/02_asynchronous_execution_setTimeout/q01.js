@@ -23,10 +23,9 @@
  * ```
  */
 
-function delayLog() {
-  for (let count = 1; count <= 10; count += 1) {
-    setTimeout(() => console.log(count), 1000 * count);
-  }
+function delayLog(count = 1, maxCount = 10) {
+  setTimeout(() => console.log(count), 1000 * count);
+  if (count < maxCount) delayLog(count + 1);
 }
 
 delayLog();
