@@ -2,7 +2,7 @@
 
 ## More JavaScript Foundations
 
-These are my assignment and practice problem solutions for JS120.
+These are my assignment and practice problem solutions for JS130.
 
 ### Requirements
 
